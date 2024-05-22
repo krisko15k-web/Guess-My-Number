@@ -35,7 +35,7 @@ document.querySelector(".check").addEventListener("click", () => {
   }
 });
 
-document.querySelector(".again").addEventListener("click", function () {
+document.querySelector(".again").addEventListener("click", () => {
   secretNumber = Math.ceil(Math.random() * 20);
   scoreNumber = 20;
   score.textContent = scoreNumber;
